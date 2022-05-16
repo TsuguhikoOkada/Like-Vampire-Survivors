@@ -48,6 +48,10 @@ public class SceneChangeBehavior : MonoBehaviour
         StartCoroutine(StandByTime());
     }
 
+    /// <summary>
+    /// 数秒待機してからシーンを遷移する
+    /// </summary>
+    /// <returns></returns>
     IEnumerator StandByTime()
     {
         yield return _wfs;
