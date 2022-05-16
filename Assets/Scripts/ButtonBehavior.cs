@@ -12,7 +12,7 @@ public class ButtonBehavior : MonoBehaviour
     /// <summary>それぞれのボタンを設定する配列のメンバ変数</summary>
     [SerializeField, Header("ボタン各種")] Button[] _buttons;
 
-    /// <summary>各デバイスのボタン操作のオンオフを切り換えるメンバ変数(このゲームではスマートフォン操作)</summary>
+    /// <summary>各デバイスのボタン操作のオンオフを切り換えるメンバ変数</summary>
     [SerializeField,Header("Touch操作イベントシステム")] EventSystem _eventSystem;
 
     /// <summary>WaitforSecondsでの待機時間のメンバ変数</summary>
