@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 
 /// <summary>タイトルやリザルト画面での遷移動作スクリプト</summary>
 
