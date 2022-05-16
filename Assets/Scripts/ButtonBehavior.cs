@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
-/// <summary>ステージセレクト画面でのボタン動作スクリプト</summary>
+/// <summary>タイトルやリザルト画面でのボタン動作スクリプト</summary>
 
 public class ButtonBehavior : MonoBehaviour
 {
