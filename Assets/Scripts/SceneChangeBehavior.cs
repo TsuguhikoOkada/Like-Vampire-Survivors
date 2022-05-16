@@ -39,6 +39,10 @@ public class SceneChangeBehavior : MonoBehaviour
             LoadScene();
         }
     }
+
+    /// <summary>
+    /// シーン遷移する前にコルーチンでStandByTimeメソッドを呼び出す
+    /// </summary>
     void LoadScene()
     {
         StartCoroutine(StandByTime());
