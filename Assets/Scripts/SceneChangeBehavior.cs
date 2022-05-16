@@ -21,6 +21,9 @@ public class SceneChangeBehavior : MonoBehaviour
     /// <summary>シーン遷移させるボタンのboolメンバ変数</summary>
     bool _actionInput => Input.anyKeyDown;
 
+    /// <summary>
+    /// OnKeyDownActionメソッドを呼び出す
+    /// </summary>
     void Update()
     {
         OnKeyDownAction();
