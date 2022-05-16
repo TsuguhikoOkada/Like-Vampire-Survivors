@@ -29,6 +29,9 @@ public class SceneChangeBehavior : MonoBehaviour
         OnKeyDownAction();
     }
 
+    /// <summary>
+    /// 何かキーを押した時にLoadSceneメソッドを呼び出す
+    /// </summary>
     void OnKeyDownAction()
     {
         if (_actionInput)
