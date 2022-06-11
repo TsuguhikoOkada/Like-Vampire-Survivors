@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Playerの移動に関するスクリプト
-/// </summary>
-
+/// <summary>Playerの移動に関するスクリプト</summary>
 public class PlayerMortion 
 {
     
