@@ -5,7 +5,7 @@ using UnityEngine;
 [Serializable]
 public struct PlayerData
 {
-    #region private
+  #region private
 
     #region 変化する値
 
@@ -27,9 +27,9 @@ public struct PlayerData
 
     #endregion
 
-    #endregion
+  #endregion
 
-    #region public
+#region public
 
     #region ゲッターセッター
 
@@ -47,5 +47,6 @@ public struct PlayerData
 
     #endregion
 
-    #endregion
+#endregion
+
 }
