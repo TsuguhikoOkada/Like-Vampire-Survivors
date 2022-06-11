@@ -1,17 +1,19 @@
 ﻿using UnityEngine;
+using System;
 
 /// <summary>
 /// Playerのアニメーターを管理するスクリプト
 /// </summary>
+[Serializable]
 public class PlayerAnimator
 {
     /// <summary> Playerのアニメーターのメンバ変数</summary>
-    Animator m_animator;
+    [SerializeField]Animator m_animator;
 
     /// <summary> Playerのアニメーター(外部呼び出し用)のメンバ変数</summary>
-    public Animator Animotion { get => m_animator; set => m_animator = value; }
+    public Animator Animotion { get => m_animator; set => m_animator = value;}
 
-
+    
     /// <summary>
     /// Playerのアニメーターのモーション判定のメソッド
     /// </summary>
