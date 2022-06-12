@@ -8,7 +8,7 @@ public class PlayerMortion
 {
     PlayerAnimator playerAnimator;
 
-   [SerializeField] PlayerData playerData;
+   [SerializeField,Header("プレイヤーデータ")] PlayerData playerData;
 
 
     Rigidbody2D m_playerRigid2D;
@@ -24,9 +24,6 @@ public class PlayerMortion
 
         v_move = Input.GetAxis("Vertical");
 
-        _hInput = h_move;
-
-        _vInput = v_move;
     }
 
     public void Move(float h_move,float v_move)
@@ -35,11 +32,5 @@ public class PlayerMortion
 
         m_playerRigid2D.velocity = direction * playerData.PlayerSpeed;
 
-        //playerAnimator.Animotion.SetFloat("Direction_X", h_move);
-
-        //playerAnimator.Animotion.SetFloat("Direction_Y",v_move);
-        //h_move = Input.GetAxis("Horizontal");
-        //v_move = Input.GetAxis("Vertical");
-        //playerAnimator.JudgeAnimotion( h_move, v_move);
     }
 }
