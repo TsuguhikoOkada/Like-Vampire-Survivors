@@ -333,6 +333,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2596,6 +2597,110 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mage_sprite_98: 1618838798998904191
+      mage_sprite_63: -1300606393314328617
+      mage_sprite_35: -3388780566335515479
+      mage_sprite_66: 3089195244510267647
+      mage_sprite_11: 5256418749747761673
+      mage_sprite_34: 7220397364315890584
+      mage_sprite_75: -3386789215306813499
+      mage_sprite_61: -9080884115683309294
+      mage_sprite_22: -4925374247155838370
+      mage_sprite_15: 6728973723348421533
+      mage_sprite_74: -7320264183266359829
+      mage_sprite_62: 1922233769836128722
+      mage_sprite_32: -3111562771609809451
+      mage_sprite_36: 8407974680291166931
+      mage_sprite_67: -8419087550609164166
+      mage_sprite_4: 1746926646693160090
+      mage_sprite_95: 3722775761646222532
+      mage_sprite_96: -1970063576486390239
+      mage_sprite_92: 7816375345933320214
+      mage_sprite_49: -7962368946783057886
+      mage_sprite_28: -3213255405598981378
+      mage_sprite_51: -1397478849664982867
+      mage_sprite_100: -3580085754539509094
+      mage_sprite_72: 3292523433301687720
+      mage_sprite_93: 1811483313809782649
+      mage_sprite_77: 3927751987415588325
+      mage_sprite_64: 2852726653545526401
+      mage_sprite_86: -530747797112810543
+      mage_sprite_41: -2525611300962827372
+      mage_sprite_13: -5143801659466102875
+      mage_sprite_101: -6939288652906331990
+      mage_sprite_0: -6872969746308744978
+      mage_sprite_30: 6180143242389856783
+      mage_sprite_89: -3667261761035031151
+      mage_sprite_10: 1402304697289849952
+      mage_sprite_45: 2031404169526632183
+      mage_sprite_59: 1817288736310784854
+      mage_sprite_78: 3012645830317242333
+      mage_sprite_53: -7544889892083876516
+      mage_sprite_65: -2406678823229783226
+      mage_sprite_68: 7798514535527062700
+      mage_sprite_87: 5734716019231736854
+      mage_sprite_20: -850017018179407324
+      mage_sprite_58: 4927563452984838026
+      mage_sprite_44: -4619686323421075825
+      mage_sprite_29: 4160859647898524569
+      mage_sprite_39: -1094315405434049264
+      mage_sprite_9: 8277008686976596592
+      mage_sprite_55: 1154723223470030968
+      mage_sprite_57: 5955359393103897919
+      mage_sprite_8: 430381022514434522
+      mage_sprite_71: -4236210055862662508
+      mage_sprite_37: -4710308631085545409
+      mage_sprite_60: 7519259149644176192
+      mage_sprite_76: -4044574491794839680
+      mage_sprite_3: -8802266514035914972
+      mage_sprite_90: -6552492112491622237
+      mage_sprite_97: 6473611349877961899
+      mage_sprite_1: 1660497921632221716
+      mage_sprite_18: -4905565869741270688
+      mage_sprite_85: 4000019778122177976
+      mage_sprite_40: -8974235431855318735
+      mage_sprite_52: 1020377545088835490
+      mage_sprite_56: 8763627960388375167
+      mage_sprite_25: -3841168789749265942
+      mage_sprite_21: -4828222690124837802
+      mage_sprite_84: -1882870456512923990
+      mage_sprite_47: 3182517159281737938
+      mage_sprite_81: 7493313530599954295
+      mage_sprite_31: 6424848963305188037
+      mage_sprite_48: 8715511388010355709
+      mage_sprite_27: 1326631565173132514
+      mage_sprite_19: 8871017315413159027
+      mage_sprite_94: -2824408931598497626
+      mage_sprite_5: -6105380642462068062
+      mage_sprite_43: -8631680682461297846
+      mage_sprite_46: -4352337601093143480
+      mage_sprite_91: 4413331764544101477
+      mage_sprite_70: -914093048294530697
+      mage_sprite_82: 7376215873328416502
+      mage_sprite_83: 8486976408755267049
+      mage_sprite_14: -5950984393484908126
+      mage_sprite_80: -5724170540696802570
+      mage_sprite_7: -964417779741160322
+      mage_sprite_17: -64611783806913167
+      mage_sprite_88: 5332006753237662132
+      mage_sprite_42: 3613490456588680231
+      mage_sprite_26: -890743947709654428
+      mage_sprite_73: -428204697387153506
+      mage_sprite_99: 5973666877803412915
+      mage_sprite_24: 591669716386344428
+      mage_sprite_2: 2620071705685839720
+      mage_sprite_54: -717733837797449894
+      mage_sprite_102: 142027020339816901
+      mage_sprite_16: 1766158855512770871
+      mage_sprite_79: -6961850531370640256
+      mage_sprite_33: 5928652439947626886
+      mage_sprite_6: -1746233187016445642
+      mage_sprite_69: -936510998545545922
+      mage_sprite_23: -3285443575716627841
+      mage_sprite_12: 4339528647479777479
+      mage_sprite_50: 6653926801463963646
+      mage_sprite_38: -6920506526376757180
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

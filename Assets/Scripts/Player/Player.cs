@@ -6,32 +6,41 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField,Header("プレイヤーデータ")] PlayerData playerData;
+    PlayerData playerData;
 
-    [SerializeField] PlayerAnimator playerAnimator;
+    PlayerAnimator playerAnimator = new PlayerAnimator() ;
 
-    [SerializeField] PlayerMortion playerMortion;
+    [SerializeField]PlayerMortion playerMortion = new PlayerMortion() ;
 
     float _hInput;
 
     float _vInput;
-    
-    
 
-    
+
+    void Start()
+    {
+        
+        playerAnimator.Animotion = gameObject.GetComponent<Animator>();
+        playerMortion.PlayerRigid2D = gameObject.GetComponent<Rigidbody2D>();
+    }
+
     void Update()
     {
-        playerMortion.PlayerOperation(_hInput,_vInput);
+        _hInput = Input.GetAxis("Horizontal");
+
+        _vInput = Input.GetAxis("Vertical");
+        
+       playerMortion.PlayerOperation(_hInput,_vInput);
     }
 
     void FixedUpdate()
     {
-        playerMortion.Move();
+        playerMortion.Move(_hInput,_vInput);
 
-        _hInput = Input.GetAxis("Horizontal");
+       playerAnimator.JudgeAnimotion(_hInput, _vInput);
 
-        _vInput = Input.GetAxis("Vertical");
+        //playerAnimator.Animotion.SetFloat("Direction_X", _hInput);
 
-        playerAnimator.JudgeAnimotion(_hInput, _vInput);
+        //playerAnimator.Animotion.SetFloat("Direction_Y", _vInput);
     }
 }
