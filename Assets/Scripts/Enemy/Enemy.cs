@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField,Header("敵のデータ")] EnemyData enemyData;
+
+    [SerializeField, Header("敵の移動速度")] float _enemySpeed;
     void Start()
     {
         
