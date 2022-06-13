@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEngine;
 
 /// <summary>登場するキャラクターのEnumスクリプト</summary>
 

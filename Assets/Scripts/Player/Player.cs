@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
 
     [SerializeField]PlayerMortion playerMortion = new PlayerMortion() ;
 
+    [SerializeField,Header("キャラ")] CharacterEnum character;
+
     float _hInput;
 
     float _vInput;
@@ -20,8 +22,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         
-        playerAnimator.Animotion = gameObject.GetComponent<Animator>();
-        playerMortion.PlayerRigid2D = gameObject.GetComponent<Rigidbody2D>();
+        playerAnimator.Animotion = GetComponent<Animator>();
+        playerMortion.PlayerRigid2D = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -39,8 +41,5 @@ public class Player : MonoBehaviour
 
        playerAnimator.JudgeAnimotion(_hInput, _vInput);
 
-        //playerAnimator.Animotion.SetFloat("Direction_X", _hInput);
-
-        //playerAnimator.Animotion.SetFloat("Direction_Y", _vInput);
     }
 }
