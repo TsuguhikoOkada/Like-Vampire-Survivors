@@ -5,6 +5,10 @@ using UnityEngine.Pool;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField,Header("キャラ")] CharacterEnum enemyCharacter;
+
+    
+
     [SerializeField,Header("敵のデータ")] EnemyData enemyData;
 
     EnemyMortion enemyMortion = new EnemyMortion();
@@ -12,7 +16,8 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
-        enemyMortion.EnemyRigid2D = gameObject.GetComponent<Rigidbody2D>();
+        //targetCharacterType = CharacterEnum.Player;
+        enemyMortion.EnemyRigid2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame

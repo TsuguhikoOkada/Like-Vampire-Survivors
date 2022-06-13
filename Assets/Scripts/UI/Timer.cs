@@ -58,6 +58,6 @@ public class Timer : MonoBehaviour
             secondText = second.ToString();
         }
 
-        _timerText.text = "Time" + minuteText + ":" + secondText;
+        _timerText.text = "Time " + minuteText + ":" + secondText;
     }
 }
