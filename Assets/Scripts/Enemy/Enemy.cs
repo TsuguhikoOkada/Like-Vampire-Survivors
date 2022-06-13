@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField,Header("キャラ")] CharacterEnum enemyCharacter;
 
-    
+    TargetEnum target = TargetEnum.Player;
 
     [SerializeField,Header("敵のデータ")] EnemyData enemyData;
 
@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
-        //targetCharacterType = CharacterEnum.Player;
         enemyMortion.EnemyRigid2D = GetComponent<Rigidbody2D>();
     }
 
