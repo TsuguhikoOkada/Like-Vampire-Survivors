@@ -5,9 +5,7 @@ using UnityEngine;
 [Serializable]
 public struct PlayerData
 {
-  #region private
-
-    #region 変化する値
+    #region Serialize Private Fields
 
     [SerializeField, Header("Playerレベル")] int _playerLevel;
 
@@ -27,11 +25,7 @@ public struct PlayerData
 
     #endregion
 
-  #endregion
-
-#region public
-
-    #region ゲッターセッター
+    #region Public Propeties
 
     public int PlayerLevel { get => _playerLevel; set => _playerLevel = value; }
 
@@ -46,7 +40,5 @@ public struct PlayerData
     public float PlayerSpeed { get => _playerSpeed; set => _playerSpeed = value; }
 
     #endregion
-
-#endregion
 
 }
